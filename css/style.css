@@ -270,6 +270,20 @@
         display: none;
     }
 }
+
+.time-line-wedding {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+@media (max-width: 992px) {
+    .time-line-wedding {
+        display: flex;
+        flex-direction: column !important; /* Switch to column layout on medium screens and below */
+        justify-content: center;
+    }
+}
 /*** Wedding Timeline End ***/
 
 
